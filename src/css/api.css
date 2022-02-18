@@ -1,0 +1,52 @@
+#location_header{
+    color: rgb(218, 28, 224);
+    float: left;
+    font-size: 65px;
+    font-weight: bold;
+}
+#description_header{
+    color:white;
+    font-size: 50px;
+    margin-top: -30px;
+    
+
+}
+
+#temperature_header{
+    color:white;
+    font-size: 100px;
+}
+
+#displaySection{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+#misc_div{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 175px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+#humidity_tag{
+    color: white;
+    font-size: 25px;
+}
+#feels_like{
+    color: white;
+    font-size: 25px;
+}
+#wind_speed{
+    color: white;
+    font-size: 25px; 
+}
+.vl{
+    border-left: 6px solid white;
+    height: 300px;
+    margin-top: -350px;
+    margin-left: 600px;
+}
